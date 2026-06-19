@@ -48,6 +48,7 @@ MOQ-SNC-THERMO-OPTIMIZATION/
 
 Author:
 Bishwajeet Singh
+ma23d007@smail.iitm.ac.in
 Department of Mathematics
 IIT Madras
-EOF
+
