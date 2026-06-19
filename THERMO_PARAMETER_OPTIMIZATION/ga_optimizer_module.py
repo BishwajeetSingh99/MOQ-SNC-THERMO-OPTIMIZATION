@@ -9,11 +9,10 @@ R = 8.314
 REFERENCE_TEMPERATURE = 298.15
 
 # ==============================================================================
-# SPECIES-SPECIFIC H AND S UNCERTAINTY DICTIONARY (AT 298.15 K REFERENCE)
+# ADJUST SPECIES-SPECIFIC H AND S UNCERTAINTY DICTIONARY (AT 298.15 K REFERENCE)
+# ADJUST SPECIES-SPECIFIC H AND S UNCERTAINTY DICTIONARIES (AT 298.15 K REFERENCE)
 # ==============================================================================
-# ==============================================================================
-# SPECIES-SPECIFIC H AND S UNCERTAINTY DICTIONARIES (AT 298.15 K REFERENCE)
-# ==============================================================================
+
 H_SPECIES_UNCERTAINTY = {
     "species_1": 0.022,
     "species_2": 0.058,
