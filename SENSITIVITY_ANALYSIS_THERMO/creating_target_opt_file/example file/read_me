@@ -1,0 +1,2 @@
+# use ignition delay raw data  to get a transformed_csv file using the conert plot data to ignition delay. 
+# use this transfomed_csv file to get targets.txt (reame it tig.targets)
