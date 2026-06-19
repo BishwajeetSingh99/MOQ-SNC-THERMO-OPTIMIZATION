@@ -31,8 +31,6 @@ S_SPECIES_UNCERTAINTY = {
 
 DEFAULT_H_ABS_BOUND = 0.10
 DEFAULT_S_ABS_BOUND = 0.10
-DEFAULT_H_ABS_BOUND = 0.10
-DEFAULT_S_ABS_BOUND = 0.10
 
 # =========================================================
 # PRS BASIS EXPANSION
