@@ -56,28 +56,6 @@ class Manipulator:
 
 		return H, S
 
-	'''
-	def adjust_a6_a7_for_perturbation_DM(self,T,nominal,perturbed):
-		"""
-		Adjust a6 and a7 to ensure H_mod(298 K) and S_mod(298 K) match original values
-		after perturbing a1-a5.
-
-		Parameters:
-		coefficients: array-like of length 7 [a1, a2, a3, a4, a5, a6, a7]
-
-		Returns:
-		Modified a6 and a7 to maintain enthalpy and entropy values at 298 K.
-		"""
-		T_ref = T  # Reference temperature in Kelvin
-		R = 8.314  # Gas constant in J/(mol K)
-		a1, a2, a3, a4, a5, a6, a7 = nominal
-		a1_, a2_, a3_, a4_, a5_ = perturbed
-		
-		a6_mod = a6 + T_ref*((a1 + a2 * T_ref/ 2 + a3 * T_ref**2 / 3 + a4 * T_ref**3 / 4 + a5 * T_ref**4 / 5) - (a1_ + a2_ * T_ref/ 2 + a3_ * T_ref**2 / 3 + a4_ * T_ref**3 / 4 + a5_ * T_ref**4 / 5))
-		a7_mod = a7 + ((a1 * np.log(T_ref) + a2 * T_ref + a3 * T_ref**2 / 2 + a4 * T_ref**3 / 3 + a5 * T_ref**4 / 4) - (a1_ * np.log(T_ref) + a2_ * T_ref + a3_ * T_ref**2 / 2 + a4_ * T_ref**3 / 3 + a5_ * T_ref**4 / 4))
-
-		return a6_mod, a7_mod
-	'''
 	
 	def cp_component_of_NASA7(self,T,coeff):
 		R = 8.314
