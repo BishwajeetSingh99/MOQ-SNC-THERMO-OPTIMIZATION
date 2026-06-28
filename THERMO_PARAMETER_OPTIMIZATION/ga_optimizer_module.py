@@ -12,7 +12,7 @@ REFERENCE_TEMPERATURE = 298.15
 # ADJUST SPECIES-SPECIFIC H AND S UNCERTAINTY DICTIONARY (AT 298.15 K REFERENCE)
 # ADJUST SPECIES-SPECIFIC H AND S UNCERTAINTY DICTIONARIES (AT 298.15 K REFERENCE)
 # ==============================================================================
-
+# kindly specify the species name like "NC3H7" in place of species_1..species_n along with their actual uncertainty at T_ref
 H_SPECIES_UNCERTAINTY = {
     "species_1": 0.022,
     "species_2": 0.058,
